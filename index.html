@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scoutpédia</title>
+</head>
+<body>
+    <header>
+        <h1>Scoutpédia</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do jogador" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        <div class="tabela-container">
+        <table id="tabelaJogadores">
+            <thead>
+                <tr>
+                    <th>Jogador</th>
+                    <th>Equipe</th>
+                    <th>Valor (M€)</th>
+                    <th>Idade</th>
+                    <th>Nacionalidade</th>
+                    <th>Pos.</th>
+                    <th>Pé</th>
+                    <th>Nota</th>
+                    <th>PJ</th>
+                    <th>min/J</th>
+                    <th>GM</th>
+                    <th>xG</th>
+                    <th>Ass.</th>
+                    <th>xA</th>
+                    <th>CAm</th>
+                    <th>CVe</th>
+                    </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Scoutpédia℠. Todos os direitos reservados</p>
+    </footer>
+    <script src="database.js"></script>
+    <script type = "module" src="app.js"></script>
+</body>
+</html>
